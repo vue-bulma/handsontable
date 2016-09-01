@@ -1,0 +1,23 @@
+{
+  "name": "vue-handsontable",
+  "version": "0.0.0",
+  "description": "Handsontable component is based on Handsontable for Vue",
+  "main": "src/Handsontable.vue",
+  "peerDependencies": {
+    "vue": ">=2.0.0-beta.0"
+  },
+  "scripts": {},
+  "repository": "git+https://github.com/vue-bulma/handsontable.git",
+  "keywords": [
+    "vue",
+    "vue-handsontable",
+    "handsontable",
+    "data",
+    "table"
+  ],
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "handsontable": "0.27.0"
+  }
+}
