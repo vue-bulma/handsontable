@@ -11,15 +11,15 @@ export default {
     data: {
       type: Array,
       required: true,
-      default: () = ([])
+      default: () => ([])
     },
     settings: {
       type: Object,
-      default: () = ({})
+      default: () => ({})
     }
   },
 
-  mounted() {
+  mounted () {
     this.settings.data = this.data
     this.table = new Handsontable(this.$el, this.settings)
   },
