@@ -1,6 +1,6 @@
-# Handsontable
+# Vue Handsontable
 
-Handsontable component is based on [Handsontable](https://github.com/handsontable/handsontable) for Vue
+Table Companent for Vue
 
 ## Installation
 
@@ -12,15 +12,15 @@ $ npm install vue-handsontable
 
 ```vue
 <template>
-  <handsontable :data="data" :settings="{}"></handsontable>
+  <cool-table :data="data" :settings="{}"></cool-table>
 </template>
 
 <script>
-import Handsontable from 'vue-Handsontable'
+import CoolTable from 'vue-Handsontable'
 
 export default {
   components: {
-    Handsontable
+    CoolTable
   },
 
   data () {
